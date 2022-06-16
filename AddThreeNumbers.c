@@ -1,4 +1,4 @@
-// write a program to add 2 number and print in on console
+// write a program to add 3 number and print in on console
 #include <stdio.h>
 int add (int a,int b, int c){
     return a+b+c;
