@@ -1,5 +1,5 @@
 
-// Wriye a program to use all escape sequences
+// Write a program to use all escape sequences
 #include <stdio.h>
 void main(){
     printf("Muruga\nperumal");
