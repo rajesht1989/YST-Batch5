@@ -1,0 +1,17 @@
+//write a program to use all escap00 sequence amd  print it on a console
+#include<stdio.h>
+void main(){
+    printf("gu\nru");
+    printf("\n");
+    printf("gu\bru");
+    printf("\n");
+    printf("gu\tru");
+    printf("\n");
+    printf("gu\'ru");
+    printf("\n");
+    printf("gu\"ru");
+    printf("\n");
+    printf("gu\\ru");
+    printf("\n");
+    printf("gu\vru");
+}
