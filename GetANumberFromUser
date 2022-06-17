@@ -1,9 +1,9 @@
 // write a program to get a number  from user and print it on console
 #include<stdio.h>
 void main(){
-    int  a= getAFloatFromUser();
+    int  a= getANumberFromUser();
 printf("%i",a);
-}int getAFloatFromUser(){
+}int getANumberFromUser(){
 int f;
 scanf("%d",&f);
 return f;
