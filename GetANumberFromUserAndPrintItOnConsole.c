@@ -2,7 +2,7 @@
 #include<stdio.h>
 void main(){
     int  b= getANumberFromUser();
-printf("%n",b);
+printf("%i",b);
 }
 int getANumberFromUser(){
 int g;
