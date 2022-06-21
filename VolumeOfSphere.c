@@ -17,6 +17,6 @@ int getARadiusFromUser(){
 }
 
 float volumeOfSphere(int x) {
-    return (4/3) * 3.141592653589793238462643383279502884197 * x * x * x;
+    return (4/3) * 3.14 * x * x * x;
 }
 
