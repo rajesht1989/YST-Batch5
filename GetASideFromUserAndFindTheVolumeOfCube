@@ -1,0 +1,19 @@
+//write a program to get side from user and identify the volume of cube
+#include<stdio.h>
+  float getASideFromUser();
+  float volumeOfCube(int d);
+
+float getASideFromUser(){
+    float f;
+    printf("Enter the side of the cube ");
+    scanf("%f",&f);
+    return f;
+}
+float volumeOfCube(int a) {
+    return a*a*a;
+}
+void main(){
+    float a=getASideFromUser();
+    float b = volumeOfCube(a);
+    printf("volume is %f",b);
+}
