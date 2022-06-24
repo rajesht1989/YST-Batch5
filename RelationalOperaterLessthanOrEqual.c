@@ -7,7 +7,7 @@ int getNumberFromUser(){
     return a;
 }
 int lessthanEqualOrWhat(int a,int b){
-    return a < b ;
+    return a <= b ;
 }
 void main (){
     int a = getNumberFromUser();
