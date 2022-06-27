@@ -1,0 +1,17 @@
+//write  program that uses relational operators 
+#include<stdio.h>
+int getANumberFromUser(){
+int k;
+printf("enter a value");
+scanf("%d",&k);
+return k;
+}
+int lessOrWhat(int k,int l){
+return l<k;
+}
+int main(){
+    int k =getANumberFromUser();
+    int l=getANumberFromUser();
+    int less=lessOrWhat(l,k);
+    printf("less%i",less);
+}
