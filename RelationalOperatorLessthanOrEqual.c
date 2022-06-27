@@ -13,6 +13,6 @@ void main (){
     int a = getNumberFromUser();
     int b = getNumberFromUser();
     int lessthanEqual=lessthanEqualOrWhat(a,b);
-    printf("lessthanEqual is %d",lessthanEquel);
+    printf("lessthanEqual is %d",lessthanEqual);
 
 }
