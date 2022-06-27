@@ -1,0 +1,20 @@
+#include<stdio.h>
+int getANumber();
+int assignmentOperator();
+
+int getANumber(){
+    int a;
+    printf("Enter a Number:");
+    scanf("%d",&a);
+    return a;
+}
+int assignmentOperator(int a, int b){
+    return a-=b;
+}
+
+void main(){
+    int a= getANumber();
+    int b= getANumber();
+    int c= assignmentOperator(a,b);
+    printf("Value is : %d",c);
+}
