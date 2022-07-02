@@ -7,41 +7,33 @@ return i;
 }
 void printCharInWords(int i){
 
-    if (i=='a'|| i=='A'){
-    printf("Anikha");
-}
-
+if (i=='a'|| i=='A'){
+  printf("Anikha");
+  }
 else if (i=='b'|| i=='B'){
     printf("banu");
 }
 else if (i=='c'|| i=='C'){
     printf("chaitanya");
 }
-
 else if (i=='d'|| i=='D'){
     printf("Dharsini");
 }
-
 else if (i=='e'|| i=='E'){
     printf("Elakiya");
 }
-
 else if (i=='f'|| i=='F'){
     printf("Fathima");
 }
-
 else if (i=='g'|| i=='G'){
     printf("Geetha");
 }
-
 else if (i=='h'|| i=='H'){
     printf("harsini");
 }
-
 else if (i=='i'||i=='I'){
     printf("Ishwarya");
 }
-
 else if (i=='j'||i=='J'){
     printf("jenifer");
 }
@@ -93,8 +85,11 @@ else if (i=='y'||i=='Y'){
 else if (i=='z'||i=='Z'){
     printf("zeeva");
 }
+else {
+ printf ("ethuku mela character ila pah");
+}
 }
 void main(){
   printCharInWords(getAcharFromUser ());
-    
 }
+
