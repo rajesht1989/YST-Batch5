@@ -27,7 +27,7 @@ void letter(char Name ){
       printf("faritha");
   }
   else if(Name=='g'||Name=='G'){
-      printf("Gowsalya");
+      printf("Gowri");
   }
   else if(Name=='h'||Name=='H'){
       printf("Harini");
@@ -37,6 +37,18 @@ void letter(char Name ){
   }
   else if(Name=='j'||Name=='J'){
       printf("Jeevitha");
+  }
+  else if(Name=='k'||Name=='K'){
+      printf("Kowsalya");
+  }
+  else if(Name=='l'||Name=='L'){
+      printf("Logitha");
+  }
+  else if(Name=='m'||Name=='M'){
+      printf("Mathumitha");
+  }
+  else if(Name=='n'||Name=='N'){
+      printf("Nanthini");
   }
   else{
       printf("No Added");
