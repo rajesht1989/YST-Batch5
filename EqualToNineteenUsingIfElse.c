@@ -1,4 +1,4 @@
-//write a program  to get a  number from user and find it is geater than five
+//write a program  to get a  number from user and find it is equal to nineteen
 #include<stdio.h>
 int getANumberFromUser(){
     int n;
