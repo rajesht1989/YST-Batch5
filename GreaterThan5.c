@@ -10,7 +10,7 @@ void greaterThan(int a){
     if(a>5){
         printf("The given number is Greater than five");
     }
-    else if(a<{
+    else if(a<5){
         printf("The given number is not Greater than five");
     }
     else{
