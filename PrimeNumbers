@@ -1,0 +1,41 @@
+//write a program to print prime numbers below 20
+#include<stdio.h>
+int getNumber(){
+    int n;
+    printf("Enter the Number below 20 : ");
+    scanf("%d",&n);
+    return n;
+}
+void printPrimeNumber(int n){
+    if(n==2){
+        printf("Prime Number");
+    }
+    else if(n==3){
+        printf("Prime Number");
+    }
+    else if(n==5){
+        printf("Prime Number");
+    }
+    else if(n==7){
+        printf("Prime Number");
+    }
+    else if(n==11){
+        printf("Prime Number");
+    }
+    else if(n==13){
+        printf("Prime Number");
+    }
+    else if(n==17){
+        printf("Prime Number");
+    }
+    else if(n==19){
+        printf("Prime Number");
+    }
+    else{
+        printf("Its not prime number");
+    }
+}
+void main(){
+    int n=getNumber();
+    printPrimeNumber(n);
+}
