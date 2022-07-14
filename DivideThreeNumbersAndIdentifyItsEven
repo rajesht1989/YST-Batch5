@@ -9,19 +9,19 @@ int getNumberFromUser(){
 int divideTheNumbers(int n,int m,int o){
     return n/m/o;
 }
-void identifyOddNumber(int z){
+void identifyEvenNumber(int z){
     if(z%2==0){
-        printf("The Number is Not Even number");
-    }
-    else{
         printf("The Number is Even number");
     }
+    else{
+       printf("The Number is Not Even number");
+   }
 }
 void main(){
     int n=getNumberFromUser();
     int m=getNumberFromUser();
-    int o=getNumberFromUser();\
+    int o=getNumberFromUser();
     int z=divideTheNumbers(n,m,o);
     printf("Answer is %d\n",z);
-    identifyOddNumber(z);
+    identifyEvenNumber(z);
 }
