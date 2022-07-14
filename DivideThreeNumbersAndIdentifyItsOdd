@@ -1,0 +1,27 @@
+//write a program to get two  number from user and divide them and identify it is  odd or  not
+#include<stdio.h>
+int getNumberFromUser(){
+    int n;
+    printf("Enter a number :");
+    scanf("%d",&n);
+    return n;
+}
+int divideTheNumbers(int n,int m,int o){
+    return n/m/o;
+}
+void identifyOddNumber(int z){
+    if(z%2==0){
+        printf("The Number is Not odd number");
+    }
+    else{
+        printf("The Number is Odd number");
+    }
+}
+void main(){
+    int n=getNumberFromUser();
+    int m=getNumberFromUser();
+    int o=getNumberFromUser();\
+    int z=divideTheNumbers(n,m,o);
+    printf("Answer is %d\n",z);
+    identifyOddNumber(z);
+}
