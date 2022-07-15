@@ -1,4 +1,4 @@
-//write a program to get 2 number from user and divide them and identify if only even
+//write a program to get two number from user and add them and identify its even 
 #include<stdio.h>
 int getNumberFromUser(){
     int n;
