@@ -9,7 +9,7 @@ int getNumberFromUser(){
 int addTheNumbers(int n,int m,int o){
     return n+m+o;
 }
-void identifyEvenNumber(int z){
+void identifyOddNumber(int z){
     if(z%2==0){
         printf("Given Number is Not odd");
     }
@@ -23,5 +23,5 @@ void main(){
     int o=getNumberFromUser();
     int z=addTheNumbers(n,m,o);
     printf("Answer is %d\n",z);
-    identifyEvenNumber(z);
+    identifyOddNumber(z);
 }
