@@ -1,3 +1,4 @@
+//write a program to get letter from user check it on name print it on console.
 #include<stdio.h>
 char getNameFromUser(){
     char n;
