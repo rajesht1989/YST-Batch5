@@ -1,3 +1,4 @@
+//write a program to get age from user and identify print it on console.
 #include<stdio.h>
 int getAgeFromUser(){
     int age;
