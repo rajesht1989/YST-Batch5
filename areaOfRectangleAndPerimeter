@@ -1,0 +1,32 @@
+//get length and width from user and identify the rectangular area,perimeter and print it on console
+
+
+#include <stdio.h>
+
+int getLengthFromUser(){
+int a;
+scanf("%d",&a);
+return a;
+}
+int getWidthFromUser(){
+int b;
+scanf ("%d",&b);
+return b;
+      }
+int areaOfRectangle(int a,int b){
+return a*b;
+}
+int perimeter(int a,int b){
+return 2*(a+b);
+}
+int main(){
+printf("Enter The Length ");
+int a=getLengthFromUser();
+printf("Enter The Width ");
+int b=getWidthFromUser();
+int c=areaOfRectangle(a,b);
+int d=perimeter(a,b);
+printf("The Area Is %d",c);
+printf("\nThe perimeter is %d",d);
+return 0 ;
+}
