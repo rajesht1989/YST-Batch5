@@ -1,0 +1,23 @@
+//get radius from user and identify the circle area and perimeter
+
+#include <stdio.h>
+
+float getRadiusFromUser(){
+float radius;
+printf("Enter The Radius ");
+scanf("%f",&radius);
+return radius;
+ }
+ float areaOfCircle(float radius){
+ return (3.14*(radius*radius));
+ }
+ float perimeterOfCircle(float radius){
+ return (2*3.14*(radius));
+ }
+ float main(){
+     float radius=getRadiusFromUser();
+     float area=areaOfCircle(radius);
+     float perimeter=perimeterOfCircle(radius);
+     printf("The Area Of Circle Is %f",area);
+     printf("\nthe Perimeter Of Circle Is %f",perimeter);
+ }
