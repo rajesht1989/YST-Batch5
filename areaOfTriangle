@@ -1,0 +1,26 @@
+//get height and base from user and identify the triangle area and print it on console
+
+#include <stdio.h>
+
+int getHeightFromUser(){
+int height;
+printf("Enter The Height ");
+scanf("%d",&height);
+return height;
+}
+int getBaseFromUser(){
+int base;
+printf("Enter The Base ");
+scanf("%d",&base);
+return base;
+}
+int areaOfTriangle(int height,int base){
+return 0.5*height*base;
+}
+int main(){
+int height=getHeightFromUser();
+int base =getBaseFromUser();
+int area=areaOfTriangle(height,base);
+printf("The Area Is %d",area);
+return 0;
+}
