@@ -1,0 +1,24 @@
+//get side from user and identify the square area and perimeter
+
+#include <stdio.h>
+
+int getSideFromUser(){
+int side;
+printf("Enter The Side ");
+scanf("%d",&side);
+return side;
+}
+int areaOfSquare(int side){
+return side*side;
+}
+int perimeterOfSquare(int side){
+return 4*side;
+}
+int main(){
+int side=getSideFromUser();
+int area= areaOfSquare(side);
+int perimeter=perimeterOfSquare(side);
+printf("The Area Is %d",area);
+printf("\nThe Perimeter is %d",perimeter);
+return 0;
+}
