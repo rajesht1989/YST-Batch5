@@ -1,0 +1,26 @@
+//get radius and height from user and identify the cylinder volume and print it on console
+
+#include <stdio.h>
+
+float getRadiusFromUser(){
+float radius;
+printf("Enter The Radius ");
+scanf ("%f",&radius);
+return radius;
+ }
+ float getHeightFromUser(){
+ float height;
+ printf("Enter The Height ");
+ scanf("%f",&height);
+ return height;
+ }
+ float volumeOfCylinder(float radius,float height){
+ return 3.14*radius*radius*height;
+ }
+ float main(){
+ float radius=getRadiusFromUser();
+ float height=getHeightFromUser();
+ float volume=volumeOfCylinder(radius,height);
+ printf("Volume Of Cone Is %f",volume);
+ return 0;
+ }
