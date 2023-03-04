@@ -1,0 +1,19 @@
+//get side from user and identify the cube area and print it on console
+
+#include <stdio.h>
+
+float getSideFromUser(){
+float side;
+printf("Enter The Side Value ");
+scanf ("%f",&side);
+return side;
+}
+float cubeArea(float side){
+return 6*side*side;
+}
+float main(){
+float side=getSideFromUser();
+float area=cubeArea(side);
+printf("The Area Is %f",area);
+return 0;
+}
