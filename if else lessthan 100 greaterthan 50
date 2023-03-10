@@ -1,0 +1,25 @@
+//write a program get number from user and identify if the number is <100 >50
+
+#include <stdio.h>
+
+int getNumberfromUser(){
+int number;
+scanf("%d",&number);
+return number;
+}
+int identifyTheNumber(int a){
+if (a>50&&a<100){
+    printf("This Number Is correct");
+}
+else{
+    printf("This Number Is Not Correct");
+    }
+}
+
+void main(){
+printf("Enter The Number ");
+
+int a=getNumberfromUser();
+
+int correctNumber=identifyTheNumber(a);
+}
