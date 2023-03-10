@@ -1,0 +1,23 @@
+//write a program from user and identify the number is add or even
+
+#include <stdio.h>
+
+int getNumberFromUser(){
+int number;
+scanf("%d",&number);
+return number;
+}
+int addOrEven(int a){
+if (a%2==0){
+    printf("This Is Even Number");
+}
+else{
+    printf("This Is Add Number");
+}
+}
+void main(){
+printf("Enter The number ");
+int a=getNumberFromUser();
+
+int addEven=addOrEven(a);
+}
