@@ -1,0 +1,39 @@
+//write a program get number from user and identify the human rate and print it on console
+
+#include <stdio.h>
+
+int getAgeFromUser(){
+int age;
+scanf("%d",&age);
+return age;
+}
+
+int identifyHumanRate(int a){
+    if(a>35){
+        printf("lol");
+    }
+else if (a>30){
+    printf("Promote The Father");
+}
+else if(a>25){
+  printf("Ready To Marriage");
+}
+else if(a>20){
+    printf("Go To Job");
+}
+else if(a>15){
+    printf("Go To Collage");
+}
+else if(a>5){
+    printf("Go To School");
+}
+else if(a<5){
+    printf("Play To Kinder Gardern");
+}
+}
+int main(){
+    printf("Enter The Age ");
+    int age=getAgeFromUser();
+    int RateHuman=identifyHumanRate(age);
+
+}
