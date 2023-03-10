@@ -1,0 +1,26 @@
+//write a program get number from user if the number is >10,<20
+
+ #include<stdio.h>
+
+ int getNumberFromuser(){
+ int number;
+ scanf("%d",&number);
+ return number;
+ }
+
+ int findCorrectNumber(int a){
+ if(a>10&&a<20){
+    printf("This Number Is Correct");
+}
+else{
+    printf("This Number Is Not correct");
+}
+}
+void main(){
+printf("Enter The Number ");
+
+int a=getNumberFromuser();
+
+int correctNumber=findCorrectNumber(a);
+
+}
