@@ -1,0 +1,125 @@
+//write a program get character From User and print the name for the character
+
+#include <stdio.h>
+
+char getCharacterFromUser(){
+char character;
+scanf("%c",&character);
+return character;
+}
+char printToName(char a){
+switch(a){
+case 'A':
+case 'a':
+    printf("Ajith");
+break;
+case 'B':
+case 'b':
+    printf("Bala");
+break;
+case 'C':
+case 'c':
+    printf("chandra");
+break;
+case 'D':
+case 'd':
+    printf("Dhanam");
+break;
+case 'E':
+case 'e':
+    printf("Elango");
+break;
+case 'F':
+case 'f':
+    printf("Farzi");
+break;
+case 'G':
+case 'g':
+    printf("Ganesan");
+break;
+case 'H':
+case 'h':
+    printf("Hendri");
+break;
+case 'I':
+case 'i':
+    printf("Ishwarya");
+break;
+case 'J':
+case 'j':
+    printf("Jeeva");
+break;
+case 'K':
+case 'k':
+    printf("Kesavan");
+break;
+case 'L':
+case 'l':
+    printf("Love");
+break;
+case 'M':
+case 'm':
+    printf("Manoj");
+break;
+case 'N':
+case 'n':
+    printf("Nagaraj");
+break;
+case 'O':
+case 'o':
+    printf("Orange");
+break;
+case 'P':
+case 'p':
+    printf("perumal");
+break;
+case 'Q':
+case 'q':
+    printf("Queen");
+break;
+case 'R':
+case 'r':
+    printf("Ram");
+break;
+case 'S':
+case 's':
+    printf("Santhi");
+break;
+case 'T':
+case 't':
+    printf("Tharun");
+break;
+case 'U':
+case 'u':
+    printf("Uma");
+break;
+case 'V':
+case 'v':
+    printf("Varun");
+break;
+case 'W':
+case 'w':
+    printf("Walter");
+break;
+case 'X':
+case 'x':
+    printf("Xavior");
+break;
+case 'Y':
+case 'y':
+    printf("Yuvan");
+break;
+case 'Z':
+case 'z':
+    printf("Zargo");
+break;
+default:
+    printf("Invalid Charecter");
+break;
+}}
+void main(){
+    printf("Enter The Character ");
+char a=getCharacterFromUser();
+
+char name=printToName(a);
+}
