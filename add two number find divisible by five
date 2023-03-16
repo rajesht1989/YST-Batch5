@@ -1,0 +1,32 @@
+//write a program get three number from user and add them and identify the divisible by five
+
+#include <stdio.h>
+
+int getNumberFromUser(){
+int number;
+scanf("%d",&number);
+return number;
+}
+int add(int a,int b,int c){
+return a+b+c;
+}
+int divisible(int d){
+if(d%5==0){
+printf("This Number Is Divisible By Five");
+}
+else{
+    printf("This Number Not Divisible By Five");
+}
+}
+void main(){
+printf("Enter The First Number ");
+int a=getNumberFromUser();
+printf("Enter The Second Number ");
+int b=getNumberFromUser();
+printf("Enter The Third Number ");
+int c=getNumberFromUser();
+int d=add(a,b,c);
+
+printf("Answer Is %d\n",d);
+divisible(d);
+}
