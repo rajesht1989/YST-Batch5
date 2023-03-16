@@ -1,0 +1,37 @@
+//write a program get character from user and find the vowels
+
+#include <stdio.h>
+
+char getCharacterFromUser(){
+char character;
+scanf("%c",&character);
+return character;
+}
+char findVowels(char a){
+switch(a){
+case 'a':
+    printf("This Character Is Vowels");
+break;
+case 'e':
+    printf("This Character Is Vowels");
+break;
+case 'i':
+    printf("This Character Is Vowels");
+break;
+case 'o':
+    printf("This Character Is Vowels");
+break;
+case 'u':
+    printf("This Character Is Vowels");
+break;
+default:
+    printf("This Character Is Not Vowels");
+break;
+}
+}
+void main(){
+printf("Enter The Character ");
+char a=getCharacterFromUser();
+
+char vowel=findVowels(a);
+}
