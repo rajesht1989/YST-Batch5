@@ -1,0 +1,36 @@
+//write a program get Character from user and print the name for the character if else
+
+
+#include <stdio.h>
+char getCharacter(){
+    char letter;
+    scanf("%c",&letter);
+    return letter;
+}
+char printToName(char ch){
+    if(ch == 'a' || ch == 'A'){
+        printf("Anifa");
+    }
+     else if(ch == 'b' || ch == 'B'){
+        printf("Bhuvi");
+    }
+     else if(ch == 'c' || ch == 'C'){
+        printf("Carolin");
+    }
+     else if(ch == 'd' || ch == 'D'){
+        printf("Driven");
+    }
+    else if(ch == 'e' || ch == 'E'){
+        printf("Emila");
+    }
+    else {
+     printf("Invalid letter");
+
+    }
+}
+int main() {
+    printf("Enter a Character ");
+    printToName(getCharacter());
+
+    return 0;
+}
