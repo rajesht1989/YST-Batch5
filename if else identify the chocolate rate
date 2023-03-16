@@ -1,0 +1,42 @@
+//write a program get number from user identify the choolate rate
+
+#include <stdio.h>
+
+int getNumberFromUser(){
+int number;
+scanf("%d",&number);
+return number;
+}
+int findChocolateRate(int a){
+
+if (a>70){
+    printf("Chocolate Not Found This Rate");
+}
+else if(a>60){
+    printf("Dairy Milk");
+}
+else if(a>50){
+    printf("KitKat");
+}
+else if(a>40){
+    printf("Five Star");
+}
+else if(a>30){
+    printf("CatBurry");
+}
+else if(a>20){
+    printf("Snickers");
+}
+else if(a>10){
+    printf("Kinder joy");
+}
+else if(a<10>0){
+    printf("Twix");
+}
+}
+void main(){
+printf("Enter The Rate ");
+int a=getNumberFromUser();
+
+int chocolateRate=findChocolateRate(a);
+}
