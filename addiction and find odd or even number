@@ -1,0 +1,33 @@
+//write a program and get three number from user and identify the add and find odd or even number
+
+#include <stdio.h>
+
+int getNumberFromUser(){
+int number;
+scanf("%d",&number);
+return number;
+}
+int add(int a,int b,int c){
+return a+b+c;
+}
+int oddOrEven(int d){
+if (d%2==0){
+    printf("This Number Is Even Number");
+}
+else{
+    printf("This Number Is odd Number");
+}
+}
+void main(){
+printf("Enter The First Number ");
+int a=getNumberFromUser();
+printf("Enter The Second Number ");
+int b=getNumberFromUser();
+printf("Enter The third Number ");
+int c=getNumberFromUser();
+int d=add(a,b,c);
+
+printf("Answer Is %d\n",d);
+
+oddOrEven(d);
+}
