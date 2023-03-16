@@ -1,0 +1,11 @@
+//swapped and printf on console a=12,b=13
+
+#include <stdio.h>
+int main(){
+    int a=12,b=13;
+int temp=a;
+    a=b;
+    b=temp;
+    printf("The Swapped Is %d %d",a,b);
+    }
+   
