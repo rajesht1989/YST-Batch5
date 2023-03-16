@@ -1,0 +1,39 @@
+//write a program get number from user identify the chocolate rate in switch case
+
+#include <stdio.h>
+int getNumber(){
+   int a;
+   scanf("%d",&a);
+   return a;
+}
+int chocolateName(int a){
+    switch(a){
+        case 1 ... 10:
+        printf("CandyMan");
+        break;
+         case 11 ... 20:
+        printf("Munch");
+        break;
+         case 21 ... 30:
+        printf("KinderJoy");
+        break;
+         case 31 ... 40:
+        printf("ButterCake");
+        break;
+          case 41 ... 50:
+        printf("DiaryMilk");
+        break;
+        default:
+        printf("NO more chocolate");
+        break;
+    }
+    
+}
+
+int main() {
+    printf("Enter a price ");
+  int a = getNumber();
+ chocolateName(a);
+
+
+}
