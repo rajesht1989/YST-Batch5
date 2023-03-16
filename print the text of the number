@@ -1,0 +1,31 @@
+//write a program get number from user and print the text of the number
+
+#include <stdio.h>
+
+int getNumberFromUser(){
+int number;
+scanf("%d",&number);
+return number;
+}
+int PrintToText(int a){
+switch (a){
+case 1:
+    printf("ONE");
+break;
+case 33:
+    printf("THIRDY THREE");
+break;
+case 999:
+    printf("NINE HUNDRED AND NINETY NINE");
+break;
+default:
+    printf("Invalid Number");
+break;
+}
+}
+void main(){
+printf("Enter The Number ");
+int a=getNumberFromUser();
+
+int printTheText=PrintToText(a);
+}
