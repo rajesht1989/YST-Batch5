@@ -1,0 +1,27 @@
+//get Number From user and print L shape star
+
+#include <stdio.h>
+
+int getNumberFromUser(){
+    int number;
+    printf("Enter The Number ");
+    scanf("%d",&number);
+    return number;
+}
+int printStarShape(int a){
+    for(int i=1;i<=a;i++){
+            for(int j=1;j<=a;j++){
+if(i == a || j == 1 ){
+        printf("*");
+    }
+    else{
+        printf("\b");
+    }
+            }
+printf("\n");
+    }
+
+}
+void main(){
+   printStarShape(getNumberFromUser());
+}
