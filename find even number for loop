@@ -1,0 +1,19 @@
+// get a number from user and find below even number and print it on console
+#include<stdio.h>
+int getNumber(){
+    int n;
+    printf("Enter a number ");
+    scanf("%d",&n);
+    return n;
+}
+int identifyEvenNumber(int n){
+    for(int i = 1;i <= n;i++){
+        if(i % 2 == 0){
+             printf("%d\n",i);
+        }
+       
+    }
+}
+int main(){
+    identifyEvenNumber(getNumber());
+}
