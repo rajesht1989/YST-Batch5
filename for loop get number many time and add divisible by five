@@ -1,0 +1,29 @@
+//get Number from user those many times get number and add them divisible by five print it on console
+
+#include<stdio.h>
+
+int getNumber(){
+int n;
+scanf("%d",&n);
+return n;
+}
+int thoseManyTimes(int a){
+   int addition=0;
+   for(int i=1;i<=a;i++){
+    printf("Enter The Number %d\n",i);
+     addition+=getNumber();
+   }
+printf("The Addition Is %d \n",addition);
+
+  if(addition%5==0){
+    printf("This addition Value Divisible By Five");
+  }
+  else{
+    printf("This addition Value Not Divisible By Five");
+  }
+}
+void main(){
+    printf("Enter The Number ");
+int a=getNumber();
+int addition=thoseManyTimes(a);
+}
