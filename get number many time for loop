@@ -1,0 +1,34 @@
+// get a number from user those many time get number and add them divisible by six and twelve
+#include<stdio.h>
+int getANumberFromUser(){
+  int number;
+  scanf("%d",&number);
+  return number;
+}
+int thoseManyTime(int n){
+     
+     int addition = 0;
+      for(int i = 1;i <= n;i++){
+          printf("Enter a number %d\n",i);
+          
+          addition +=  getANumberFromUser();  
+      }
+      
+   printf("Addition is %d \n",addition);
+   
+   if(addition % 12 == 0){
+       printf("This Value Is Divisible By Twelve\n");
+   }
+     if(addition % 6 == 0){
+       printf("This Value Is Divisible By Six\n");
+   }
+   else{
+       printf("This Number Not Divide");
+   }
+}
+ void main(){
+   printf("Enter a iteration ");
+   int n = getANumberFromUser();
+   int addition = thoseManyTime(n);
+ 
+ }
