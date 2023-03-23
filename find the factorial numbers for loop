@@ -1,0 +1,23 @@
+//get number from user and find factorial number use for loop method
+
+#include<stdio.h>
+
+int getNumber(){
+    int number;
+    printf("Enter The Number  ");
+    scanf("%d",&number);
+    return number;
+}
+double findFactorialNumber(int a){
+ double value=1 ;
+    for(double i=1;i<=a;i++){
+        value*=i;
+            printf("%lf\n",value);
+        }
+    
+    return 0;
+}
+void main(){
+    int a=getNumber();
+    findFactorialNumber(a);
+}
