@@ -1,0 +1,23 @@
+//get number from uesr and add each digit identify the addition and print it on console
+
+#include<stdio.h>
+
+int getNumber(){
+    int number;
+    printf("Enter The Number ");
+    scanf("%d",&number);
+    return number;
+}
+int addNumber(int a){
+    int remainder,add=0;
+    for(int i = a;i > 0;i = i/10){
+        remainder = i % 10;
+       add += remainder;
+    }
+    
+     printf("%d",add);
+}
+void main(){
+    int a=getNumber();
+    addNumber(a); 
+}
