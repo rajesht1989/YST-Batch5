@@ -1,0 +1,26 @@
+//get number from user and those many time get number and find largest number for loop
+
+#include<stdio.h>
+
+int getNumber(){
+int number;
+scanf("%d",&number);
+return number;
+}
+int thoseManyTimes(int a){
+    int manyTimes,largest;
+for(int i=1;i<=a;i++){
+         printf("Enter The Number %d : ",i);
+    manyTimes=getNumber();
+  if(manyTimes>largest){
+  largest=manyTimes;
+  }
+}
+ printf("The Largest Number Is %d",largest);
+}
+
+void main(){
+printf("Enter The Input ");
+int a=getNumber();
+thoseManyTimes(a);
+}
