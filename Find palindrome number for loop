@@ -1,0 +1,30 @@
+//get number from user and find palindrome number for loop
+
+#include <stdio.h>
+
+int getNumber(){
+    int number;
+    scanf("%d",&number);
+    return number;
+}
+int findPalindrome(int a){
+
+int reversed=0 , remainder;
+
+for (int i = a; i > 0;i = i / 10) {
+        remainder = i % 10;
+        reversed = reversed * 10 + remainder;
+    }
+   if (a == reversed) {
+        printf("%d is a palindrome number.\n", a);
+    } else {
+        printf("%d is not a palindrome number.\n", a);
+    }
+   
+}
+
+int main() {
+    printf("Enter The Number ");
+    int a=getNumber();
+    findPalindrome(a);
+}
