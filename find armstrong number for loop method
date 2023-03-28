@@ -1,0 +1,28 @@
+//get number from user and find armstrong number 
+
+#include<stdio.h>
+
+int getNumber(){
+    int number;
+    printf("Enter The Number ");
+    scanf("%d",&number);
+    return number;
+}
+int findArmStrongNumber(int a){
+    int add = 0;
+    for(int i=a;i>0;i=i/10){
+        int reminder = i % 10;
+        add += (reminder * reminder * reminder);
+    }
+    if (add == a){
+        printf("The given number is armstrong");
+    }else{
+        printf("The given number not is armstrong");
+    }
+}
+
+
+void main(){
+    int a=getNumber();
+    findArmStrongNumber(a);
+}
