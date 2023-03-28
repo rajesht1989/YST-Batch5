@@ -1,0 +1,29 @@
+//get number from user those many time get character and find how much vowels use if else print it on console
+
+#include<stdio.h>
+
+int getNumber(){
+int number;
+scanf("%d",&number);
+return number;
+}
+int findVowels(int a){
+    int vowels=0;
+  for(int i=1;i<=a;i++){
+    char ch;
+    printf("Enter The Character %d\n", i);
+      scanf(" %c",&ch);
+
+   if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+              vowels++;
+          
+}
+}
+    printf("Number Of Vowels : %d\n",vowels);
+    return 0;
+}
+void main(){
+    printf("Enter The Number ");
+  int a=getNumber();
+  findVowels(a);
+   }
