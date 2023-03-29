@@ -1,0 +1,26 @@
+// get Number From User those many times get number and find how many odd numbers in numbers and print it on console
+
+#include<stdio.h>
+
+int getNumber(){
+    int number;
+    scanf("%d",&number);
+    return number;
+}
+int findOddNumber(int a){
+   int odd,oddNumber=0;
+    for(int i=1;i<=a;i++){
+        printf("%d Enter The Number ",i);
+        odd=getNumber();
+        if(odd%2==1){
+            oddNumber++;
+        }
+        
+    }
+    printf("Number Of Odd Number Is %d",oddNumber);
+}
+void main(){
+    printf("Enter The Intiger ");
+    int a=getNumber();
+    findOddNumber(a);
+}
