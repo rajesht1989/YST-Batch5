@@ -1,0 +1,26 @@
+// get year from user and find leap year on if else
+
+#include<stdio.h>
+
+int getYear(){
+    int year;
+    printf("Enter The year ");
+    scanf("%d",&year);
+    return year;
+}
+int findLeapYear(int a){
+       if(a%400==0){
+         printf("This Year Is Leap Year");
+        } else if(a%100==0){
+         printf("This Year Is Non Leap Year");
+        }
+        else if(a%4==0){
+         printf("This Year Is Leap Year");
+        }else{
+            printf("This Year Is Non Leap Year");
+    }
+}
+void main(){
+    int a=getYear();
+    findLeapYear(a);
+}
