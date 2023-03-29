@@ -1,0 +1,22 @@
+//get Number From User and print under twendy multipication 
+ 
+ #include<stdio.h>
+
+int getNumber(){
+    int number;
+    printf("Enter The Number ");
+    scanf("%d",&number);
+    return number;
+}
+
+ int calculation(int a){
+     for(int i=1;i<=20;i++){
+      int  multiple = a*i;
+       printf("%d * %d = %d\n", i,a,multiple);
+     }
+     return 0;
+ }
+ void main(){
+      int a=getNumber();
+     calculation(a);
+ }
