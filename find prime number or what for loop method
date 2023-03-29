@@ -1,0 +1,21 @@
+//get number from user find prime number for loop
+
+#include<stdio.h>
+int getNumber(){
+    int number;
+    printf("Enter The Number ");
+    scanf("%d",&number);
+    return number;
+}
+int primeNumber(int a){
+    for(int i=2;i<a;i++){
+        if(a % i == 0){
+            printf("The given number is not prime");
+            return;
+        }}
+            printf("The given number is prime");
+    }
+void main(){
+    int a=getNumber();
+    primeNumber(a);
+}
