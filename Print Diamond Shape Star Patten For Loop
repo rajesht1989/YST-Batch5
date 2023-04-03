@@ -1,0 +1,30 @@
+//get number from user print diamond shape star pattern
+
+#include<stdio.h>
+
+int getNumber(){
+int number;
+printf("Enter The Number : ");
+scanf("%d",&number);
+return number;
+}
+int diamondShape(int a){
+int i,j,s,l; //i=row,s=space,j=star;
+for(i=-a;i<=a;i++){
+    if(i<0){
+       l=-i;
+  }  else{
+        l=+i;
+    }
+    for(s=0;s<l;s++)
+         printf("  ");
+        for(j=0;j<2*(a-l)+1;j++)
+             printf("* ");
+
+      printf("\n");
+}
+
+}
+void main(){
+int a=getNumber();
+diamondShape(a);}
