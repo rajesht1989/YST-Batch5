@@ -1,0 +1,22 @@
+//find sum of array average
+
+#include <stdio.h>
+
+void main() {
+   int height[50],i,n;
+      int   add=0;
+       
+       printf("Enter The Number Of Students ");
+       scanf("%d",&n);
+   
+   for(i=0;i<n;i++){
+       printf("Enter The Height %d : ",i+1);
+        scanf("%d",&height[i]);
+     add+=height[i];
+}
+
+   printf("The Total Height Is %d \n",add);
+   
+  double divisible = add / 10;
+   printf("The Average Height Is %lf ",divisible);
+   }
